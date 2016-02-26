@@ -1,0 +1,112 @@
+.navbar{
+	min-height: 80px;
+}
+.navbar-default {
+    background-color: #373737;
+    border-color: #373737;
+}
+.navbar-default .navbar-brand{
+	color: #fff;
+	font-size: 45px;	
+}
+.navbar-default .navbar-brand:hover{
+	color: #fff;
+	font-size: 50px;
+}
+
+.navbar-default .navbar-nav > li > a{
+	color: #fff;
+	text-transform: uppercase;
+}
+.navbar-default .navbar-nav > li > a:hover{
+	color: #fff;
+	font-size: 18px;
+	color: #FF6156;
+	text-transform: uppercase;
+}
+.carousel-caption{
+	 padding-bottom: 25%;
+}
+.navbar-default .container {
+    padding-top: 1%;
+}
+
+
+
+
+.centered {
+	text-align: center;
+}
+
+#about {
+    background: none repeat scroll 0 0 #FFFFFF;
+    padding: 60px 0;
+}
+
+#contact {
+    background: none repeat scroll 0 0 #373737;
+    padding: 60px 0;
+    text-align: center;
+    color: #fff;
+}
+body {
+    color: #555555;
+    
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#contact .fa {
+    color: #FFBF00;
+    margin-bottom: 10px;
+}
+
+#team {
+    background: none repeat scroll 0 0 #F5F5F5;
+    padding: 60px 0;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+p {
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+#team .fa {
+    background-color: #C4C4C4;
+    border-radius: 100%;
+    color: #FFFFFF;
+    font-size: 15px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 3px;
+    outline: 0 none;
+    transition: all 0.3s ease 0s;
+    width: 30px;
+}
+
+#team .fa:hover{
+	background-color: #FFBF00;
+}
+
+#footerwrap {
+    background: none repeat scroll 0 0 #2B2B2B;
+    border-bottom: 1px solid #DDDDDD;
+    padding: 25px 0 15px;
+    text-align: center;
+}
+
+ul.social-buttons li a {
+    color: #999999;
+    font-size: 24px;
+    outline: 0 none;
+}
+
+#footerwrap span.copyright {
+    color: #888888;
+    font-weight: 400;
+    line-height: 40px;
+}
