@@ -297,3 +297,15 @@ img {
     border: medium none;
     color: #FFFFFF;
 }
+
+.pd-20 {
+    padding: 20px !important;
+}
+
+#loginModal{
+    top: 130px;
+}
+
+.modal{
+    position: relative !important;
+    } 

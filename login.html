@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/custom.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+</head>
+<body style=" background-image: url('image/login1.jpeg'), url('image/login.jpg'), url(paper.gif);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;">
+  <!--  -->
+  <!-- Header start -->
+  <!--  -->
+  <div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="../">HOPE</a>
+        <button data-target="#navbar-main" data-toggle="collapse" type="button" class="navbar-toggle">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div id="navbar-main" class="navbar-collapse collapse">
+       <!--  <ul class="nav navbar-nav">
+          <li>
+            <a href="../help/">Help</a>
+          </li>
+          <li>
+            <a href="http://news.bootswatch.com">Blog</a>
+          </li>
+        </ul> -->
+
+        <ul class="nav navbar-nav navbar-right">
+          <li><a  href="#">Home</a></li>
+          <li><a  href="#about" class="smoothScroll">About US</a></li>
+          <li><a  href="#">Donations</a></li>
+          <li><a  href="#">Contacts</a></li>
+          <li><a  href="#">Team</a></li>
+          <li><a  href="#">Join</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!--  -->
+  <!-- Header end -->
+  <!--  -->
+<div id="loginModal" class="modal show" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+  <div class="modal-content">
+      <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+          <h1 class="text-center">Login</h1>
+      </div>
+      <div class="modal-body">
+          <form class="form col-md-12 center-block">
+            <div class="form-group">
+              <input type="text" class="form-control input-lg" placeholder="Email">
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control input-lg" placeholder="Password">
+            </div>
+            <div class="form-group">
+              <button class="btn btn-primary btn-lg btn-block">Sign In</button>
+              <span class="pull-right"><a href="#">Register</a></span><span><a href="#">Need help?</a></span>
+            </div>
+          </form>
+      </div>
+      <div class="modal-footer">
+                         <div class="row">
+                        <div class="col-sm-6 col-sm-offset-3 social-login">
+                          <h3>...or login with:</h3>
+                          <div class="social-login-buttons">
+                            <a class="btn btn-link-1 btn-link-1-facebook" href="#">
+                              <i class="fa fa-facebook"></i> Facebook
+                            </a>
+                            <a class="btn btn-link-1 btn-link-1-twitter" href="#">
+                              <i class="fa fa-twitter"></i> Twitter
+                            </a>
+                            <a class="btn btn-link-1 btn-link-1-google-plus" href="#">
+                              <i class="fa fa-google-plus"></i> Google Plus
+                            </a>
+                          </div>
+                        </div>
+                    </div>
+        </div>  
+      </div>
+  </div>
+  </div>
+</div>
+
+
+
+  <script src="js/jquery-1.10.0.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!-- Just include this Js file -->
+  <script src="js/jquery.carousel.fullscreen.js"></script>
+</body>
+</html>
